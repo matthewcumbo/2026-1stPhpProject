@@ -15,14 +15,21 @@
 </head>
 <body>
     <h1>Hello World</h1>
+    
+    <!-- The following it the opening tag for PHP code -->
     <?php  
+        // The echo function simply outputs text into the compiled HTML page
         echo "This is a simple echo";
+
+        // To maintain valid HTML, this output should be placed within HTML
         echo "<p>This paragraph is built in PHP</p>";
 
+        // Variables are created starting with a $ (dollar sign)
         $firstName = "Joe";
         $lastName = "Borg";
 
         echo $firstName;
+        // The . notation can be used to concatenate multiple strings into a single one
         echo "<p>" . $firstName . " " . $lastName . "</p>";
 
     ?>

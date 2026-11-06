@@ -5,6 +5,7 @@
 
     <?php
         // If Condition 
+        // Code within the code block (between curly brackets) is only executed if the condition (inside the round brackets) is true
         $awake = false;
         if ($awake === true){
             echo "<p>Yay I'm awake</p>";
@@ -12,6 +13,7 @@
 
 
         // If..Else Conditions
+        // If the condition is false, we can have an alternate code block for that case
         $num1 = 30;
         $num2 = 40;
         if($num1 > $num2){
@@ -22,6 +24,7 @@
         }
 
         // If..ElseIf..Else Condition
+        // We can add many more conditions for varying outputs based on different possible values of the same variable
         $time = date("H");
         echo $time;
         if($time < "9"){
@@ -38,6 +41,7 @@
         }
 
         // Switch Statement
+        // Works similar to an If..ElseIf..Else, but is structurally easier to read and can be faster (depending on how complex the condition is)
         $favcol = "green";
         switch($favcol){
             case "red":

@@ -3,6 +3,13 @@
 <div class="border rounded">
     <h1>Associative Arrays</h1>
 
+    <!-- 
+        Associative Arrays use Key-Value-Pairs(KVP) instead of simple data.
+        The key is the identifier, used instead of the position number. 
+        This makes the array much more understandable and usable throughout the code.
+        KVP structre: key => value
+    -->
+    
     <?php
     $students = [
         "Interactive Media" => 8,
